@@ -1,0 +1,34 @@
+%gilroy-900{
+    font-family: 'Gilroy-Black', sans-serif;
+    font-weight: 900;
+}
+%gilroy-700{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: 700;
+}
+%gilroy-500{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-weight: 500;
+}
+%gilroy-400{
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 400;
+}
+%gilroy-600{
+    font-family: 'Gilroy-Semibold', sans-serif;
+    font-weight: 600;
+}
+%nova-400{
+    font-family: 'ProximaNova-Regular', sans-serif;
+    font-weight: 400;
+}
+%roboto-500{
+    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 500;
+}
+@function max($numbers...) {
+@return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+@return m#{i}n(#{$numbers});
+}

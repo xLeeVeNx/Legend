@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legend</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__items">
+                    <div class="nav__item">
+                        <a class="logo" href="#">
+                            <img class="logo__img" src="images/logo.svg" alt="logo icon">
+                        </a>
+                        <div class="nav__item-wrapper">
+                            <form class="nav__search-form" action="#">
+                                <button class="nav__form-btn" type="submit">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M19.7558 18.5775L14.0683 12.89C15.17 11.5292 15.8333 9.8 15.8333 7.91668C15.8333 3.55168 12.2816 0 7.91664 0C3.55164 0 0 3.55164 0 7.91664C0 12.2816 3.55168 15.8333 7.91668 15.8333C9.8 15.8333 11.5292 15.17 12.89 14.0683L18.5775 19.7558C18.74 19.9183 18.9533 20 19.1667 20C19.38 20 19.5934 19.9183 19.7559 19.7558C20.0817 19.43 20.0817 18.9033 19.7558 18.5775ZM7.91668 14.1666C4.47 14.1666 1.66668 11.3633 1.66668 7.91664C1.66668 4.46996 4.47 1.66664 7.91668 1.66664C11.3634 1.66664 14.1667 4.46996 14.1667 7.91664C14.1667 11.3633 11.3633 14.1666 7.91668 14.1666Z" fill="#21487B"/>
+                                    </svg> 
+                                </button>
+                                <input class="nav__form-input" type="text" placeholder="Поиск">
+                            </form>
+                            <div class="nav__links">
+                                <a class="nav__link" href="#">
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M21.9441 6.46808C21.8925 5.29913 21.7035 4.49549 21.4326 3.79912C21.1532 3.05995 20.7234 2.39817 20.1602 1.84802C19.6099 1.28932 18.9437 0.855181 18.2129 0.580193C17.5124 0.309403 16.7128 0.12037 15.5436 0.0688308C14.3657 0.0129267 13.9918 0 11.0043 0C8.01679 0 7.64285 0.0129267 6.46931 0.0644659C5.30014 0.116005 4.49635 0.305206 3.80002 0.575828C3.06053 0.855181 2.39862 1.28495 1.84838 1.84802C1.28956 2.39817 0.855512 3.06431 0.580304 3.79493C0.309462 4.49549 0.120393 5.29477 0.0688439 6.46371C0.0129292 7.64139 0 8.01526 0 11.0022C0 13.9891 0.0129292 14.363 0.0644782 15.5363C0.116027 16.7052 0.305264 17.5089 0.576106 18.2052C0.855512 18.9444 1.28956 19.6062 1.84838 20.1563C2.39862 20.715 3.0649 21.1492 3.79565 21.4242C4.49635 21.695 5.29578 21.884 6.46512 21.9355C7.63849 21.9872 8.01259 22 11.0001 22C13.9876 22 14.3615 21.9872 15.5351 21.9355C16.7042 21.884 17.508 21.695 18.2043 21.4242C19.6832 20.8525 20.8523 19.6836 21.4241 18.2052C21.6947 17.5047 21.884 16.7052 21.9355 15.5363C21.9871 14.363 22 13.9891 22 11.0022C22 8.01526 21.9956 7.64139 21.9441 6.46808ZM19.9626 15.4503C19.9152 16.5248 19.7347 17.105 19.5843 17.4918C19.2145 18.4502 18.4537 19.2108 17.4951 19.5805C17.1082 19.7309 16.5237 19.9114 15.4533 19.9586C14.2927 20.0103 13.9446 20.023 11.0086 20.023C8.07271 20.023 7.72026 20.0103 6.56385 19.9586C5.48921 19.9114 4.90891 19.7309 4.52204 19.5805C4.045 19.4042 3.61078 19.1249 3.25833 18.7596C2.89296 18.4028 2.61355 17.9731 2.43724 17.4961C2.28679 17.1093 2.10629 16.5248 2.05911 15.4547C2.00739 14.2943 1.99463 13.9461 1.99463 11.0107C1.99463 8.07536 2.00739 7.72298 2.05911 6.56696C2.10629 5.49253 2.28679 4.91234 2.43724 4.52554C2.61355 4.04843 2.89296 3.61446 3.2627 3.26191C3.61934 2.8966 4.0492 2.61725 4.5264 2.44114C4.91327 2.29072 5.49794 2.11025 6.56821 2.06291C7.72882 2.01137 8.07707 1.99844 11.0128 1.99844C13.9532 1.99844 14.3012 2.01137 15.4576 2.06291C16.5323 2.11025 17.1126 2.29072 17.4995 2.44114C17.9765 2.61725 18.4107 2.8966 18.7632 3.26191C19.1285 3.61865 19.4079 4.04843 19.5843 4.52554C19.7347 4.91234 19.9152 5.49673 19.9626 6.56696C20.0141 7.72735 20.027 8.07536 20.027 11.0107C20.027 13.9461 20.0141 14.2899 19.9626 15.4503Z" fill="white"/>
+                                        <path d="M11.001 5.35156C7.88033 5.35156 5.34839 7.88286 5.34839 11.0031C5.34839 14.1233 7.88033 16.6546 11.001 16.6546C14.1218 16.6546 16.6536 14.1233 16.6536 11.0031C16.6536 7.88286 14.1218 5.35156 11.001 5.35156ZM11.001 14.6691C8.97646 14.6691 7.33428 13.0274 7.33428 11.0031C7.33428 8.97878 8.97646 7.33708 11.001 7.33708C13.0257 7.33708 14.6677 8.97878 14.6677 11.0031C14.6677 13.0274 13.0257 14.6691 11.001 14.6691V14.6691Z" fill="white"/>
+                                        <path d="M18.4343 5.26712C18.4343 5.99572 17.8434 6.58649 17.1145 6.58649C16.3858 6.58649 15.7949 5.99572 15.7949 5.26712C15.7949 4.53836 16.3858 3.94775 17.1145 3.94775C17.8434 3.94775 18.4343 4.53836 18.4343 5.26712V5.26712Z" fill="white"/>
+                                    </svg> 
+                                </a>
+                                <a class="nav__link" href="#">
+                                    <svg width="11" height="22" viewBox="0 0 11 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.99175 3.79549H11V0.297495C10.6535 0.249828 9.46196 0.142578 8.07424 0.142578C5.17874 0.142578 3.19523 1.96399 3.19523 5.31166V8.39258H0V12.3031H3.19523V22.1426H7.11274V12.304H10.1787L10.6654 8.3935H7.11182V5.69941C7.11274 4.56916 7.41705 3.79549 8.99175 3.79549Z" fill="#FEFEFE"/>
+                                    </svg> 
+                                </a>
+                            </div>
+                            <a class="nav__cart" href="#">
+                                <p class="nav__cart-text">корзина</p>
+                                <div class="nav__cart-box">
+                                    <svg width="27" height="31" viewBox="0 0 27 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M27 19.1429V8.01918L5.4 4.06258V2.69505C5.4 1.20902 4.20834 0 2.74356 0H0V1.82612H2.7435C3.21576 1.82612 3.6 2.21594 3.6 2.69505V19.5566C3.6 21.5032 5.16096 23.0868 7.0797 23.0868H7.8V25.1678C7.43226 25.0043 7.02654 24.9129 6.6 24.9129C4.9458 24.9129 3.6 26.2782 3.6 27.9564C3.6 29.6346 4.9458 31 6.6 31C8.15298 31 9.43398 29.7966 9.58494 28.2608H9.6V23.0868H25.2V25.1678C24.8323 25.0043 24.4265 24.9129 24 24.9129C22.3458 24.9129 21 26.2782 21 27.9564C21 29.6346 22.3458 31 24 31C25.553 31 26.834 29.7966 26.9849 28.2608H27V21.2606H7.0797C6.15348 21.2606 5.4 20.4962 5.4 19.5566V18.8385L27 19.1429ZM6.6 29.1738C5.93832 29.1738 5.4 28.6277 5.4 27.9564C5.4 27.2851 5.93832 26.739 6.6 26.739C7.26168 26.739 7.8 27.2851 7.8 27.9564C7.8 28.6277 7.26168 29.1738 6.6 29.1738ZM24 29.1738C23.3383 29.1738 22.8 28.6277 22.8 27.9564C22.8 27.2851 23.3383 26.739 24 26.739C24.6617 26.739 25.2 27.2851 25.2 27.9564C25.2 28.6277 24.6617 29.1738 24 29.1738ZM14.4 17.1391L10.8 17.0884V6.90737L14.4 7.56679V17.1391ZM16.2 7.89652L19.5 8.50103V17.211L16.2 17.1645V7.89652ZM9 17.063L5.4 17.0123V5.91822L9 6.57764V17.063ZM25.2 17.2913L21.3 17.2363V8.83071L25.2 9.54509V17.2913Z" fill="white"/>
+                                    </svg> 
+                                    <span class="nav__cart-num">1</span>
+                                </div>
+                            </a>
+                            <a class="nav__inlet-link" href="#">вход/регистрация</a>
+                        </div>
+                    </div>
+                    <div class="nav__item">
+                        <form class="nav__select-form" action="#">
+                            <select class="nav__form-select" name="" id="">
+                                <option value="">Москва</option>
+                                <option value="">Казань</option>
+                                <option value="">Краснодар</option>
+                                <option value="">Воронеж</option>
+                            </select>
+                        </form>
+                        <div class="nav__menu">
+                            <ul class="nav__menu-list">
+                                <li class="nav__menu-item">
+                                    <a class="nav__menu-link" href="#">о воде</a>
+                                </li>
+                                <li class="nav__menu-item">
+                                    <a class="nav__menu-link" href="#">о нас</a>
+                                </li>
+                                <li class="nav__menu-item">
+                                    <a class="nav__menu-link" href="#">каталог</a>
+                                </li>
+                                <li class="nav__menu-item">
+                                    <a class="nav__menu-link" href="#">сотрудничество</a>
+                                </li>
+                                <li class="nav__menu-item">
+                                    <a class="nav__menu-link" href="#">новости</a>
+                                </li>
+                                <li class="nav__menu-item">
+                                    <a class="nav__menu-link" href="#">контакты</a>
+                                </li>
+                                <li class="nav__menu-item">
+                                    <a class="nav__menu-link" href="#">акции</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a class="nav__contact" href="tel:+74959800400">
+                            +7 (495) 980-04-00
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+
+        
+        <div class="breadcrums">
+            <div class="container">
+                <ul class="breadcrums__list">
+                    <li class="breadcrums__list-item">
+                        <a class="breadcrums__list-link" href="#">Главная </a>
+                    </li>
+                    <li class="breadcrums__list-item">
+                        <a class="breadcrums__list-link" href="#">Каталог товаров</a>
+                    </li>
+                    <li class="breadcrums__list-item">
+                        <a class="breadcrums__list-link" href="#">Байкальская вода </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__top-items">
+                    <div class="footer__top-item footer__email-box">
+                        <h4 class="footer__title">Задать вопрос по почте</h4>
+                        <a class="footer__email-link" href="mailto:shop@tkbaikalaqua.com">
+                            shop@tkbaikalaqua.com
+                        </a>
+                    </div>
+                    <div class="footer__top-item footer__logo-box">
+                        <a class="footer__logo" href="#">
+                            <img class="footer__logo" src="images/footer-logo.svg" alt="logo">
+                        </a>
+                        <div class="footer__soc-links">
+                            <a class="footer__soc-link" href="#">
+                                <img src="images/soc-links/facebook-blue.svg" alt="facebook icon">
+                            </a>
+                            <a class="footer__soc-link" href="#">
+                                <img src="images/soc-links/inst-blue.svg" alt="inst icon">
+                            </a>
+                            <a class="footer__soc-link" href="#">
+                                <img src="images/soc-links/twitter.svg" alt="twitter icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__top-item footer__tel-box">
+                        <h4 class="footer__title footer__tel-title">Позвонить на горячую линию</h4>
+                        <a class="footer__tel-link" href="tel:+74959800400">+7 (495) 980-04-00</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__bottom-items">
+                    <div class="footer__bottom-item">
+                        <h5 class="footer__bottom-title">О воде</h5>
+                        <ul class="footer__bottom-list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Миссия</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">История</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Статьи</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Новости</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Вопросы и ответы</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__bottom-item">
+                        <h5 class="footer__bottom-title">О нас</h5>
+                        <ul class="footer__bottom-list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Оплата</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Доставка</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Документы</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Безопастность</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__bottom-item">
+                        <h5 class="footer__bottom-title">Каталог</h5>
+                        <ul class="footer__bottom-list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Байкальская вода</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Аренда кулеров</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Орехи/Крекеры</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Напитки</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Масла</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Мед/Варенье</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__bottom-item">
+                        <h5 class="footer__bottom-title">сотрудничество</h5>
+                        <ul class="footer__bottom-list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Скидки</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Условия</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Оптовые цены</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__bottom-item">
+                        <h5 class="footer__bottom-title">Новости</h5>
+                        <ul class="footer__bottom-list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Ноябрь</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Кандидаты</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Торговые условия</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Розничная торговля</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Доставка</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__bottom-item">
+                        <h5 class="footer__bottom-title">Контакты</h5>
+                        <ul class="footer__bottom-list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Адрес склада</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Номера телефонов</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Отдел продаж</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Документы</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Рекомендации</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
